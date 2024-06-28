@@ -1,0 +1,182 @@
+body {
+    background: #eeeff5;
+}
+
+.main-body-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.container-main {
+    width: 95%;
+    height: 100%;
+}
+
+.container-home {
+    padding: 0 2%;
+    min-width: 500px;
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.header {
+    padding: 10px;
+}
+
+.header-conteudo {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #0a0a0a;
+}
+
+.search-container {
+    border-radius: 16px;
+    background: #fff;
+    width: 70%;
+    border: 1px solid #afafaf;
+}
+
+.btn-search {
+    border: none;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 16px 0px 0px 16px;
+    cursor: pointer;
+    width: 8%;
+}
+
+.input-search {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0px 16px 16px 0px;
+    width: 85%;
+    outline: 0;
+    background: #fff;
+    color: #5f5f5f !important;
+}
+
+.error-validate {
+    color: red;
+    font-size: 14px;
+}
+
+.conteudo {
+    width: 100%;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-container {
+    border-radius: 6px;
+    background: #fff;
+    margin-top: 25px;
+}
+
+.company-header {
+    background: #00497b;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 6px 6px 0 0px;
+}
+
+.company-body {
+    padding: 15px 10px;
+    overflow-x: auto;
+}
+
+.company-table-body {
+    overflow-x: auto;
+}
+
+.company-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.company-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.company-title {
+    font-size: 14px;
+    color: #414141;
+}
+
+.company-text {
+    color: #0a0a0a;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.company-section-title {
+    color: #0a0a0a;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.company-section-text {
+    position: absolute;
+    z-index: 100;
+    top: -14px;
+    background-color: #fff;
+    padding-right: 5px;
+}
+
+.line {
+    content: " ";
+    background-color: #414141;
+    height: 1px;
+    width: 100%;
+}
+
+.partner-header {
+    background: #f8f8f8;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 6px 6px 0 0px;
+    border-bottom: 1px solid #00497b;
+}
+
+.table-company {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table-company thead {
+    background: #dfe3eb;
+}
+
+.table-company th, .table-company td {
+    padding: 2% 1%;
+}
+
+.table-company th {
+    text-align: center;
+    color: #0a0a0a;
+    font-size: 14px;
+}
+
+.table-company td {
+    border-bottom: 1px solid #00497b;
+    font-size: 14px;
+}
+
+.table-company tr:last-child td{
+    border-bottom: none;
+}
+
+.table-company th {
+    font-weight: bold;
+}
