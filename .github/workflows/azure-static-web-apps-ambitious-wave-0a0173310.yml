@@ -19,7 +19,8 @@ jobs:
         with:
           submodules: true
           lfs: false
-              - name: Set up Node.js
+
+      - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
           node-version: '20.12.2'
