@@ -1,1 +1,0 @@
-export const CNPJ_MASK = '11.111.111/1111-11';
